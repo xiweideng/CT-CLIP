@@ -1,7 +1,7 @@
 import torch
 import copy
 
-#import clip.clip as clip
+# import clip.clip as clip
 
 from src.models import utils
 
@@ -12,7 +12,7 @@ class ImageEncoder(torch.nn.Module):
 
         self.model, self.train_preprocess, self.val_preprocess = clip.load(
             args.model, args.device, jit=False)
-        
+
         self.cache_dir = args.cache_dir
 
         if not keep_lang and hasattr(self.model, 'transformer'):
@@ -65,9 +65,10 @@ class ImageClassifier(torch.nn.Module):
         self.image_encoder = image_encoder
         self.classification_head = classification_head
         self.process_images = process_images
-       #if self.image_encoder is not None:
-       #     self.train_preprocess = self.image_encoder.train_preprocess
-       #     self.val_preprocess = self.image_encoder.val_preprocess
+
+    # if self.image_encoder is not None:
+    #     self.train_preprocess = self.image_encoder.train_preprocess
+    #     self.val_preprocess = self.image_encoder.val_preprocess
 
     def forward(self, inputs):
         if self.process_images:

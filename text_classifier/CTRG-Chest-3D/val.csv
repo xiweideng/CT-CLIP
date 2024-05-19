@@ -1,0 +1,362 @@
+report,Enlarged Cardiomediastinum,Cardiomegaly,Lung Opacity,Lung Lesion,Edema,Consolidation,Pneumonia,Atelectasis,Pneumothorax,Pleural Effusion,Pleural Other,Fracture,Support Devices,No Finding
+"""Multiple exudates and nodules in both lungs.  Low density lesions in liver and kidneys. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in the left lower lung, and cord foci in the left lower lung.  Low density shadow in liver, calcification in right lobe of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in the right lung.  Bilateral pleural hypertrophy. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple intracerebral cavity infarction and white matter degeneration.  Interstitial changes in both lungs.  The bilateral multiple rib cortex was distorted. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Exudative changes in both lungs, right pleural effusion, right pleural thickening.  Two emphysema.  The heart is enlarged.  Small stones in the right kidney may be large. """,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+"""Multiple metastatic tumors in both lungs.  A few cord foci in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bilateral pleural effusion with distension of lower lobes of both lungs, and a little inflammatory change in both lower lungs. """,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Left lateral paraventricular infarction with malacia.  Central lobular emphysema, parainterlobular septal emphysema, bilateral pulmonary distension. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Nodules in bilateral lower lobe.  Mediastinal lymph nodes were enlarged. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Chronic inflammatory lesions in the upper and lower lobes of the right lung, with a few cord lesions in both lungs.  The density of the right lobe of thyroid is uneven. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Interstitial changes in both lower lungs, bullae in both lungs, calcification in the right lung, bilateral pleural hypertrophy. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""There are a few cord foci in the middle lobe of the right lung and nodules in the anterior mediastinum.  Changes after internal fixation of left clavicular fracture. """,1,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""Right lung calcification, a few cord lesions in both lungs.  Multiple low-density foci in the liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Left upper lung space occupying, malignant lesions may or inflammatory pseudotumor.  A few cord lesions in the left lingual lobe of the lung, left interlobar fissure and pleural effusion on both sides.  Multiple stones may occur in the main pancreatic duct, and pancreatitis may occur.  Gallbladder enlargement, multiple gallstones in gallbladder, small cyst in right kidney.  Small nodules in both lungs. """,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"""Both lung cords are in strips.  Right upper lung bulla.  Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Bilateral lung infection, right lower lobe consolidation.  Left pleural effusion, bilateral pleural thickening.  Nodules in the posterior segment of the upper lobe tip of the left lung.  Coronary artery wall calcification. """,0,0,0,1,0,1,1,0,0,1,1,0,0,0
+"""Left thalamic hemorrhage broke into ventricular system.  Bilateral paraventricular lacunar cerebral infarction.  There are few inflammatory lesions in both lungs.  Secretions from trachea and left main bronchus.  Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+""" Two lung cord foci with local bullae.  Subcutaneous soft tissue nodule on the right back.  Low density shadow in liver, uneven fatty liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Coronary artery wall calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Gallstone. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Two lungs are infected, and part of the lower lung is newly infected.  Little pleural effusion on both sides.  Left kidney cystic low density focus. """,0,0,0,0,0,1,1,0,0,1,0,0,0,0
+"""Multiple small nodules in the left upper lobe of the lung.  There are a few cord foci in both lungs, and spotty calcifications in the upper lobe of the left lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Some solid nodules in the outer basal segment of the lower lobe of the right lung.  Multiple small nodules in the right lung.  Intrahepatic calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Old lesion of left upper lobe of lung. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Chronic bronchitis secondary to infection of both lungs, bronchiectasis of both lungs.  The heart shadow is enlarged.  Changes in healing period of right multiple rib fractures. """,0,1,0,0,0,0,3,0,0,0,0,1,0,0
+"""Multiple small nodules in both lungs.  Fatty liver, intrahepatic low-density lesion. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The bronchi of both lungs were slightly dilated.  Small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bronchiectasis of both lungs with infection. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+""" There are a few cord foci in both lower lungs, bullae in the left lung, and pleural thickening on both sides. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Nodules in the anterior segment of the right upper lobe.  Low density shadow of left lobe of liver.  Gallstone. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Left side multiple rib fractures.  Right lower lung cord lesion. """,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Multiple small nodules in the right lung, bilateral pleural thickening.  Low density shadow of right lobe of liver. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""It is considered that the lower lobe of the right lung may have a large infection and a small amount of pleural effusion on the right side.  Two emphysema with interstitial changes, multiple pulmonary bullae in both lungs, old lesions in the lower left lobe, and slightly thicker pleura on both sides.  Multiple small nodules in both lungs.  The thoracic spine is flattened. """,0,0,0,1,0,0,3,0,0,3,0,0,0,0
+"""Enlargement of mediastinal lymph nodes.  Consider right lower lung infection.  Ground glass nodules in the lower left lung.  The right multiple rib cortex is distorted and discontinuous. """,1,0,0,1,0,0,3,0,0,0,0,0,0,0
+"""Right lower lung infection, cord lesions in both lungs.  Gallstone, cholecystitis.  Suspected nodule of left adrenal gland. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Right upper lobe calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Intrahepatic calcification. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+""" The left lower lung is slightly inflamed. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Right lower lung infection. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"""Space occupying right upper lobe of lung.  Old lesions in the right lung, two lower lung cord lesions, calcification in the lower lobe of the right lung.  Intrahepatic cystic lesions. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Thickening of the middle and upper esophageal wall.  Slight infection of both lungs, bilateral pleural hypertrophy.  Calcification in the right lower lung.  Small nodules in the right upper lung.  The left lobe of liver is slightly low density. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""There is a little inflammatory change in the posterior basal segment of the lower lobe of the right lung, and the right middle lobe has cord lesions.  Small nodules are scattered in the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Fatty liver, intrahepatic calcification. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Two lower lungs infection.  Bilateral pleural thickening.  Mediastinal lymph nodes were enlarged. """,0,0,0,1,0,0,1,0,0,0,1,0,0,0
+"""Interstitial changes of both lungs with a little inflammatory change. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Ground glass density nodules in the left upper lobe of the lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in both lungs, benign lesions are considered. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The left rib is suspiciously twisted.  Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Thickening of the middle esophageal wall.  Multiple tiny nodules in both lungs.  Mild interstitial changes in both lungs with infection.  The bullae in the upper and middle lobes of the right lung, the punctate calcification in the lower lobe of the left lung, and the pleural thickening on both sides. """,0,0,0,1,0,0,1,0,0,0,1,0,0,0
+""" Old lesion of left upper lobe of lung. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Consider multiple left rib fractures.  Left lower lung calcification.  Cystic focus in the right lobe of liver. """,0,0,0,0,0,0,0,0,0,0,0,3,0,0
+"""Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Left basal ganglia intracerebral hemorrhage.  The right basal ganglia were coelomic infarcts.  Two lower lungs infection. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"""Large cerebral infarction in the left hemisphere.  Right frontal lobe and left temporal lobe malacia.  Bilateral pleural effusion, bilateral lung infection.  Postoperative changes of the heart and enlargement of the cardiac shadow. """,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+"""Bilateral pulmonary bullae, calcification in left lower lobe.  Spleen calcification. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Right upper lobe lesion, multiple nodules in the lung.  Double emphysema, pulmonary bullae, multiple cord foci in both lungs, calcification in the lower lobe of the right lung, bilateral pleural hypertrophy.  A small amount of pericardial effusion.  Multiple old fractures of ribs on both sides.  The liver is round like low density shadow, and the liver is low density focus. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""Multiple tiny nodules in both lungs.  Calcification of right lobe of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bronchiectasis of right lower lung with infection.  Esophageal hiatal hernia, multiple low density foci in the liver. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"""Multiple small nodules were found in both lungs, and miliary nodules were scattered in both lungs.  The right lung is bullous. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bronchiectasis of the middle and lower lobe of the right lung with infection.  Multiple small nodules in both lungs.  Gallstone. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Right lung infection with cavitation.  Multiple old lesions and multiple nodules in both lungs.  Nodules in splenic hilum area, accessory spleen may be present. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Left lung cord streak lesion.  Multiple tiny nodules in both lungs.  Gallstone. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Mild interstitial coup in both lungs, calcification in left lower lung.  Fatty liver.  Thyroid density is uneven. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple tiny nodules can be seen in both lungs.  Strip lesions in the middle lobe of the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bilateral lung infection with partial consolidation and bilateral pleural effusion.  Nodules in the posterior segment of the upper lobe tip of the left lung.  Coronary artery wall calcification.  The density of the right thyroid lobe is uneven, and the left thyroid lobe is dense. """,0,0,0,1,0,1,1,0,0,1,0,0,0,0
+""" Two emphysema, left lower lung infection.  Gallstone, cystic lesion of left kidney. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"""Banded cord foci in upper lobes of both lungs, and pleural areas on both sides are slightly thicker.  Gallstone. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""The left lower lung occupies space, and benign lesions may be large.  Mild emphysema in both upper lungs, a few chronic inflammatory lesions in the lower lobe of the right lung, and streaky lesions in the lower lobe of the left lung.  Mediastinal lymph nodes are slightly larger.  Abnormal density of bilateral thyroid lobes. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""It is considered that the right half oval center may have an acute infarction, and the right basal ganglia may have a cavity infarction with softening lesions.  Interstitial inflammation of both lungs, right lower lung infection, right lung bulla.  Multiple ground glass nodules in both lungs. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Interstitial changes of both lungs accompanied by infection.  Multiple small nodules in both lungs, benign lesions are considered.  Bilateral lung calcification, a small amount of pleural effusion on both sides. """,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"""Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Two lung infections.  A small amount of pleural effusion on the left side, pleural thickening on both sides.  Two lungs are emphysema with a few streaky shadows in the left lung.  Multiple small nodules and calcified nodules were found in both lungs. """,0,0,0,1,0,0,1,0,0,1,1,0,0,0
+"""Bronchiectasis of both lungs with infection.  Two emphysema, multiple bullae.  The volume of the middle lobe of the right lung shrinks.  Bilateral pleura is slightly thicker locally. """,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+"""Coronary artery calcification.  Gallstone. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found in both lungs.  The right interlobular pleura is slightly thickened. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""The lower lobes of both lungs are changed, and the hypostatic effect is considered.  Calcification of the left thyroid lobe, cystic lesions in the liver, small stones in the right renal pelvis. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+""" Interstitial inflammation of both lungs, focal inflammatory lesions in the upper lobe of the right lung, and a small amount of pleural effusion in the left side.  Small solid nodules in the upper lobe of the right lung.  A few cord foci in both lungs, old foci in the upper lobe of left lung.  Anterior mediastinal soft tissue density nodules. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Nodules in the lower lobe of the right lung.  Multiple nodules in both lungs, calcification in the upper lobe of the right lung, and slight bronchiectasis in the right lung.  The bone structure of T12 vertebral body is disordered, the density is increased with the collapse of the upper edge, and the left part of the rib cortex is not smooth. """,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Small nodules in the posterior basal segment of the left lower lobe. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""A little exudation from the upper lobe of the left lung. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Nodules in the left lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Nodules in the posterior segment of the right upper lobe, the dorsal segment of the lower lobe, and the posterior segment of the left upper lobe tip.  Emphysema.  Bilateral pleural thickening.  Intrahepatic calcification. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Small ground glass nodules in the posterior segment of the right upper lung.  Multiple tiny nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Postoperative changes in the middle lobe of the right lung, multiple tiny nodules in both lungs.  The lower lobe of the right lung is slightly dilated.  Right lung cord focus, multiple calcifications, right pleural thickening.  Low density lesion in the right lobe of thyroid. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Left lower lobe calcification.  The left lobe of liver is slightly low density. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+""" Two lung infections.  Enlarged cardiac shadow and pericardial effusion.  Multiple gallstones occur in the gallbladder.  Low density shadow of spleen. """,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Cerebral hemorrhage in the left basal ganglia area, increased intracranial and bilateral intraventricular gas accumulation.  Two lung infections.  Enlarged cardiac shadow and pericardial effusion. """,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+"""Bilateral pleural thickening.  The heart shadow is enlarged. """,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+"""Bullae in the lower lobe of the right lung. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes in both lungs, with punctate calcification in the upper lobe of the right lung.  Both lungs have multiple light dense small nodules, and left upper lobe patchy shadows.  The heart is slightly enlarged.  Left lobe cyst sign of liver. """,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple old lesions occurred in both lungs, with local thickening of pleura on both sides. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Bilateral pleural effusion accompanied by slight distension of both lower lungs, a little inflammatory change in both lower lungs, and bilateral pleural thickening.  Small nodules in both lungs.  Intrahepatic low-density lesions. """,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+"""Multiple small solid nodules in both lungs.  Double emphysema, left lower lobe calcification.  The right 10-12 costal bone is distorted, and old fracture is considered. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""Multiple tiny nodules in both lungs.  The lower lobe of the right lung is slightly dilated.  Right lung cord focus, multiple calcifications, right pleural thickening.  Low density lesion in the right lobe of thyroid. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Multiple nodules in both lungs.  Two emphysema, pulmonary bullae, bilateral pleural hypertrophy. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small dense nodules in both lungs, considering chronic inflammatory lesions.  A few old lesions in both lungs.  Mild fatty liver.  Hepatic cyst. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Multiple low-density foci in the liver.  A small amount of pericardial effusion.  The left first rib is locally dense. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Ground glass nodules in upper lobes of both lungs.  Nodules in the right lobe of thyroid. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Calcification of liver parenchyma. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in the right lung.  Bilateral pleural thickening.  Intrahepatic calcification, right adrenal calcification. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Nodules in the anterior mediastinum.  The heart shadow is enlarged and bilateral pleural effusion occurs.  Two emphysema, two old lung lesions, bilateral pleural hypertrophy with calcification. """,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"""Multiple small nodules in the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The cerebral hemorrhage in the right basal ganglia broke into the ventricle.  The lower lobes of both lungs are slightly infected, and there is a small amount of pleural effusion on both sides.  Local bronchiectasis in the middle lobe of the right lung and slight inflammation in the upper lobe of the left lung.  Low density focus of liver. """,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"""The left upper lobe of the left lung and the lower lingual segment of the cord focus, the left focal pleural thickening.  Small ground glass nodules in the posterior segment of the upper lobe tip of the left lung.  Cystic focus in the right lobe of liver. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Bilateral pulmonary nodules. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes in both lungs, cord streak lesions with infection.  Bilateral pleural effusion.  The heart shadow is slightly larger. """,0,1,1,0,0,0,1,0,0,1,0,0,0,0
+"""Multiple small nodules in both lungs.  Low density focus of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Two emphysema with two lung infections, a little pleural effusion on both sides.  Peritoneal effusion. """,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"""A few cord lesions in both lungs, bilateral focal pleural thickening. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Multiple nodules in both lungs.  Two emphysema.  Low density lesion in left lobe of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in both lungs.  Left upper lobe calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Both lungs are scattered with bronchiolitis.  Multiple tiny nodules in both lungs.  Anterior mediastinal space occupying, pericardial cyst may occur.  Old focus of right upper lung, thickening and adhesion of right pleura. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Right frontal lobe malacia and hydrocephalus.  Solid nodule in the upper lobe of the right lung.  Old changes in the left fourth and sixth ribs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Mild interstitial changes in both lungs, scattered calcification in both lungs, bilateral pleural thickening.  Low density focus at the edge of liver. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Left basal ganglia intracerebral hemorrhage.  Stems in bilateral basal ganglia.  A little inflammation in both lungs. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+""" Multiple nodules in both lungs.  Changes after right upper lung resection: chronic organizing inflammation of right lower lung, right lung cord lesion, right pleural hypertrophy.  Paratracheal pneumocyst. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""There are few inflammatory lesions in both lungs.  Gallstone. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Two lung infections.  Left pleural effusion and pleural thickening on both sides.  Postoperative changes of left 7th rib.  Gallstone. """,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+"""Mild interstitial changes were found in both lungs, with a few cord foci in both lungs and spotty calcification in the lower left lobe.  The heart is enlarged.  Slightly large lymph nodes were found in mediastinum, mesenteric root and retroperitoneum.  Multiple spotty calcifications in the liver. """,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"""Left lower lung cancer with metastasis of both lungs, pleura and ribs.  Some nodules in the left lung could not be clearly displayed due to the progression of the left lower lung lesions.  Interstitial inflammation of both lungs may be greater than lymphangitic carcinomatosis.  Both lungs are scattered in pulmonary bullae, with pleural effusion on the left side. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""The subcutaneous soft tissue structure of the chest and back is disordered. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Interstitial changes in both lungs with infection and bilateral pleural effusion.  Cardiac shadow enlargement and pericardial effusion. """,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+"""Fibroin foci in the upper lobe of the left lung.  Fatty liver. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""1.  There are a few exudative lesions in the lower lobes of both lungs, and a small amount of pleural effusion on both sides.  Multiple tiny nodules in both lungs, benign lesions are considered. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Old lesions in upper lobe of both lungs.  The volume of liver calcification and right kidney decreased. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""There is a little inflammation in the lower lobe of the right lung.  Dense shadow of middle lobe of right lung.  Lesion of left upper lobe.  Multiple nodules in both lungs.  The bottom wall of the gallbladder is slightly thick with nodules. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The right lung has multiple small nodules and right lung cord lesions.  The right 7th posterior rib cortex is twisted. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Chronic bronchitis, emphysema, multiple bullae.  Right lung has multiple stripe lesions and left lung has multiple calcifications. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Left lower lung calcification.  Left kidney stone. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Nodules in both upper lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Left basal ganglia intracerebral hemorrhage.  The local cortex of the right inner temporal bone plate is thickened and rough, and bone tumors cannot be excluded. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes of both lungs with a few cord foci.  Low density focus in the body and tail of pancreas. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+""" A few inflammatory lesions were found in both lungs, with punctate calcification in the lower lobe of the right lung and slightly thicker pleura on both sides. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Low density lesion in the right lobe of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" The oropharyngeal cavity is narrow. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Multiple nodules in the right lung.  Two emphysema and bullae.  Low density of liver and high density of tail of pancreas. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs, small calcifications in the lower lobe of the right lung.  Thyroid density is uneven. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in the lower lobe of the right lung.  Multiple cystic lesions in the liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in both lungs.  Old lesions in the upper lobe of the right lung, cord and calcification in both lungs.  Two emphysema and bullae.  Low density focus of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Liver calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Abnormal density shadow in the left main bronchus and its branches accompanied by left upper lobe bronchial obstruction and left upper lung obstructive inflammation.  A few fibrous cord foci in both lungs.  Bilateral pulmonary bullae, old lesions in left lower lobe.  Postoperative changes of T12 vertebral body. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Enlarged lymph nodes in the upper mediastinum and multiple nodules in both lungs.  Bilateral pleural thickening and pericardial effusion.  Low density focus of liver. """,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""A small nodule in the left upper lobe of the lung is considered benign.  Nodule of right cardiophrenic angle, small lymph node is considered.  Consider gallstone. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""A few fibrous foci in the left upper lung.  Calcified nodules in both lungs.  Low density focus of liver. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Left breast changes after treatment.  Thyroid disease.  Small ground glass nodules in the left upper lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes in both lungs, bilateral pleural hypertrophy.  Multiple tiny nodules in both lungs.  Left clavicle fracture with surrounding soft tissue swelling. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""Multiple nodules in both lungs.  Interstitial changes in both lungs and a few cord foci, mild bronchiectasis in the right middle lung.  Two emphysema, left pulmonary bulla. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Chronic bronchitis secondary to lung infection.  Two emphysema, multiple pulmonary bullae, mediastinal lymph node enlargement, pleural thickening on both sides.  Cardiac shadow enlargement, pericardial effusion, bilateral pleural effusion.  Changes after internal fixation of right multiple rib fractures. """,0,1,0,1,0,0,1,0,0,1,1,1,0,0
+"""Space occupying right chest and back, malignant lesions may occur.  Multiple round like low density shadows in the liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Postoperative changes of intracranial aneurysms.  Calcification in the right lower lung.  The volume of the right thyroid lobe increases and the density decreases. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Slight interstitial changes in both lower lungs.  Small nodules in the left upper lung.  Multiple small lymph nodes in mediastinum.  Coronary calcification.  Low density lesions in both kidneys. """,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""There are a few inflammatory lesions in both lungs, and both lungs are scattered in pulmonary bullae, with slightly thick pleura on both sides.  Multiple small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Intrahepatic low-density lesions. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bilateral lung infection, bilateral lower lobe consolidation, bilateral small amount of pleural effusion.  Bilateral emphysema, change of pulmonary bullae, calcification of both lungs, bilateral pleural thickening. """,0,0,0,0,0,1,1,0,0,1,1,0,0,0
+""" A few cord foci in both lungs, local bronchiectasis in the left lung, and thickening of the left pleura.  Multiple nodules in the left lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Left anterior upper mediastinum space occupying.  Bilateral pulmonary nodules.  Little infection in the right upper lung.  Multiple calcifications in the left lower lung.  Fatty liver. """,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""The left lower lung markings are increased, and the right lower lobe has small nodules. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bilateral pulmonary bronchiectasis with infection.  The right subpleural ground glass nodule is more than the anterior solid.  Calcification in the right lower lung.  Gallstone.  Multiple old rib fractures on the right side, changes in thoracic scoliosis, and narrowing of T3/4 intervertebral space. """,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+"""Nodules in the posterior segment of the right upper lobe and the dorsal segment of the left lower lobe.  Mediastinal lymph nodes were slightly enlarged and partially calcified.  Multiple punctate dense shadows in the left breast.  Gallstone, cystic lesion of right kidney. """,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in both lungs.  The density of thyroid gland is uneven. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""There are a few cord lesions in both lungs, calcification in the right lower lung, and local pleural adhesions on the right side.  Multiple small nodules in both lungs.  Low density in spleen. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in both lungs, benign lesions considered.  A few old lesions in the left lung apex.  Left lobe of thyroid occupied space. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Chronic bronchitis of both lungs, with a small amount of pleural effusion on the right side.  Multiple small nodules in the left lung.  Multiple slightly large lymph nodes are seen in the mediastinum.  The density in the right lobe of thyroid is uneven. """,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Cystic dilatation of bronchi in both lungs with infection.  Bilateral pleural effusion.  Both lungs have multiple bullae, right pneumothorax, right lung compression fishing 45%. """,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+"""A little bronchiectasis in the lower lobe of the left lung and nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Nodule in the right lower lung.  Interstitial inflammation and pulmonary bullae in both lungs.  A few cord lesions in both lungs.  Bilateral pleural thickening.  Cystic lesions of mediastinum. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Multiple small nodules in the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""There are a few chronic inflammatory changes in the lower lobe of both lungs.  Multiple nodules in both lungs.  Left lung calcification, bilateral pleural hypertrophy.  Low density was frequently seen in the liver, and low density was frequently seen in both thyroid lobes. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Interstitial changes in both lungs: strip cord foci in left upper lobe and right middle lobe, with slightly thicker pleura on both sides.  Enlarged heart, gallstone.  The density of the left 7th posterior rib is increased, and old fracture is considered.  Left adrenal nodule. """,0,1,0,1,0,0,0,0,0,0,1,1,0,0
+"""Multiple tiny nodules in both lungs.  Small stones in the left renal pelvis.  Old fracture of left posterior ribs 9 and 11. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""Multiple cord lesions in the right lung.  Multiple cystic lesions of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in both lungs.  Left lung cord and calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Nodules in the left upper lobe of the lung.  Left breast nodule. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Left lower lung calcification.  The density of bilateral thyroid lobes is uneven. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Two lung cord lesions, right lung calcification, bilateral pleural hypertrophy. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Double lower lung infection.  Small nodules in the upper lobe of the right lung.  The right thyroid gland is enlarged with uneven density, and the left thyroid gland is not clearly shown.  There are multiple small calcifications in the right breast. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Multiple small nodules in both lungs.  A little infection in both lower lungs, a little pleural effusion on the right side, bilateral pleural hypertrophy. """,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"""Multiple small nodules were found in both lungs, and chordal foci were found in the left upper lobe tongue segment.  Calcification of right lobe of liver.  Postoperative changes of right breast. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Fracture of the sixth costoaxillary segment on the right side.  Fibrous streak foci in the lower lobe of the right lung.  Fatty liver. """,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+""" Mild interstitial changes in the middle lobe of the right lung, the lower tongue segment of the upper lobe of the left lung and the lower lobes of both lungs with a little exudation, and a small amount of pleural effusion on both sides.  Both lungs are scattered in nodules and calcifications.  Multiple low-density lesions in the liver. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Multiple ground glass and solid nodules in both lungs.  A few cord lesions in the lower lobes of both lungs.  Coronary artery wall calcification.  Intrahepatic cystic lesion, low density shadow of left thyroid lobe.  The right kidney is slightly high-density, and the left adrenal gland is nodular. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in the left lung.  Fatty liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" The liver has multiple low density shadows. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Bilateral frontal lobe intracerebral hemorrhage, subarachnoid hemorrhage, left lateral ventricle hematocele slightly absorbed, and bilateral frontal lobe hemorrhage had little change. """,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Low density shadow of the left thyroid lobe. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Low density focus of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The heart shadow is enlarged. """,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"""A little bronchiectasis with inflammation in the lower lobe of the right lung. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in the right lung.  The volume of the left lobe of thyroid gland is enlarged and the density is uneven.  The volume of both kidneys was reduced and multiple low-density foci were seen. """,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"""A few cord lesions in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Interstitial inflammation of both lungs, old lesions of both upper lungs, organic inflammation of left lower lungs, left pleural effusion and bilateral pleural hypertrophy.  The heart shadow is enlarged and the pericardium has a small amount of effusion. """,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+"""Two lungs infection, left lower lung atelectasis may occur.  There is a small amount of effusion in the right thoracic cavity. """,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+"""The left upper lung occupies space, and the mediastinal lymph node is slightly larger.  Interstitial changes in both lungs, two emphysema, two lower lungs infection, bilateral pleural effusion.  The heart shadow is enlarged and the pleura is hypertrophy on both sides.  Chronic subdural hematoma on the left occipital top. """,0,1,0,1,0,0,1,0,0,1,1,0,0,0
+"""The density of white matter decreased in bilateral basal ganglia.  Bilateral pneumothorax.  Extensive emphysema of mediastinum, neck and bilateral chest wall.  Interstitial inflammation of both lungs with extensive fibrosis. """,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+"""The left 3rd rib is twisted. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Fracture of right 11th rib.  Double emphysema, multiple infection of both lungs.  The heart shadow is enlarged, a small amount of pericardial effusion, bilateral pleural hypertrophy.  Multiple calcifications in spleen and cystic lesions in upper pole of right kidney. """,0,1,0,0,0,0,1,0,0,0,0,1,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Interstitial changes in the lower lobe of the right lung and cord lesions in the lower lobe of both lungs.  Hepatic cystic lesions. """,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"""Multiple exudative lesions were found in both lungs, with a small amount of pleural effusion on both sides.  Slightly large lymph nodes are frequently found in mediastinum and bilateral armpits.  The intrahepatic bile duct was slightly dilated. """,1,0,0,1,0,0,0,0,0,1,0,0,1,0
+"""Multiple ground glass nodules in both lungs.  Postoperative changes of the left breast. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Two emphysema, two old upper lung lesions, two upper lung bronchiectasis, pulmonary bullae, bilateral pleural hypertrophy.  Interstitial changes in both lungs with a small amount of exudation in both lower lungs are considered as infection. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Infectious changes in the upper lobe of the right lung, interstitial inflammation in the lower lobe of both lungs, and slightly larger mediastinal lymph nodes.  Emphysema and bullae in both lungs, old lesions in both lungs, and local expansion of bronchi in both lungs. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Infarction in right basal ganglia and lateral ventricle.  A little infection in both lower lungs and a little pleural effusion on both sides.  Multiple calcifications in both lungs, pleural thickening on both sides.  The heart shadow is enlarged. """,0,1,0,0,0,0,1,0,0,1,1,0,0,0
+"""Multiple low-density intracranial lesions.  Both lungs are scattered with tiny nodules.  Old fracture of left third rib. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""A little bronchiectasis in the upper lobe of the left lung, multiple inflammation in both lungs.  Multiple small nodules in both lungs.  Fatty liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Two emphysema, pulmonary bullae.  Calcification of liver parenchyma, cystic lesion of right lobe of liver.  Right adrenal nodule. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules and masses in the left lung.  Local consolidation of the left upper lung was more basically absorbed than before.  The local distension of the original left lower lung has returned.  There are multiple cord foci in the left lung and pleural adhesions on the left side.  A small amount of fluid accumulated in the left thoracic cavity.  Postoperative changes of thymoma. """,0,0,0,1,0,1,0,0,0,1,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Nodules in the anterior segment of the left upper lobe.  The density of the right lobe of thyroid is uneven. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" There is a little inflammatory change in the left lower lung, double emphysema and pulmonary bullae.  Multiple small nodules in both lungs.  Intrahepatic cystic lesions. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The left upper lobe is slightly inflamed.  Multiple small nodules in the left lung, benign lesions considered.  Right lung calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" There are a few cord foci in the right lung and pleural thickening on both sides. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Bullae in the lower lobe of the right lung.  Multiple tiny nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""There is little inflammatory change in the lower lobe of the left lung.  Multiple tiny nodules in both lungs.  A few cord foci in both lungs, bullae in the upper lobe of the right lung.  Small calcification in the left breast.  Intrahepatic calcification or hepatolithiasis. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""A few fibrous foci in both lungs.  Nodules in the right lower lung.  Small cystic lesions of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found in both lungs. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""A small subpleural nodule in the left lower lobe of the lung may be a large benign lesion. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Exudative changes in the lower lobes of both lungs. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""""",0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Fatty liver.  Low density lesion in left lobe of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in the left lower lobe of the lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Two lung infections.  Calcified nodules of the liver. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"""Left basal ganglia lacunar peduncle.  A little inflammation in both lungs.  Low density focus of left kidney. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Left clavicle fracture, multiple fractures of left ribs 2-5 and 7.  There are a few cord lesions in both lungs and pleural thickening on both sides.  Fatty liver. """,0,0,0,1,0,0,0,0,0,0,1,1,0,0
+"""The right lung has multiple ground glass shadows, and inflammatory lesions are considered.  Nodules in the anterior inner basal segment of the left lower lobe.  Bilateral upper lobe bullae.  Slightly low density of mediastinum, consider benign lesions. """,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Ground glass nodules in the upper lobe of the right lung.  Fatty liver, liver cystic lesions. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Interstitial inflammation of both lungs, multiple pulmonary bullae, pleural thickening on both sides.  Decreased thyroid density. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Multiple nodules in both lungs.  Multiple dense shadows of thoracic vertebral body, considering the possibility of metastasis.  Bilateral small amount of pleural effusion and pleural hypertrophy.  Low density lesion in the right lobe of thyroid.  Low density lesion in left lobe of liver. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Space occupying lesion of right breast. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The medial wall of the right orbital bone is depressed.  Right lung cord lesion, left lower lobe calcification.  Multiple slightly low density shadows can be seen in the liver. """,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"""Subarachnoid hemorrhage.  Interstitial changes of both lungs accompanied by infection of both lungs.  Little pleural effusion on both sides.  Calcification of the left upper lobe tongue segment.  The density of gallbladder increased. """,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"""A few chronic inflammatory lesions in both lungs. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple acute infarction of left temporal parietal lobe may be considered.  Chronic bronchitis, slight interstitial changes in both lungs, and punctate calcification in the right lower lung.  Bilateral pleural effusion.  The heart shadow is enlarged, and there are multiple low-density foci in the liver. """,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+""" A few inflammatory lesions in both lungs, left pleural effusion.  Left anterior mediastinal soft tissue mass shadow.  The heart is enlarged with a small amount of pericardial effusion.  Patchy dense shadows in the hepatic portal area and punctate dense shadows in both kidneys. """,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"""Left pleural effusion with pulmonary insufficiency and multiple bone metastases.  There are many small lymph nodes in mediastinum and bilateral armpits.  A little inflammation in both lungs.  Left breast calcification, coronary calcification.  Low density focus of liver. """,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Solid nodules in the left upper lobe of the lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Small nodules in the right lower lung and left upper lung.  Left lung calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in both lungs.  T10 right pedicle density increased.  Bilateral lung fibrous cord lesions, left apex calcification, bilateral pleural thickening. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Consider a few inflammatory lesions in the right lung.  The wall of the middle and lower esophagus seems thickened. """,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+"""It is considered that the focal inflammatory lesions in the upper lobe of the right lung may be large.  Two upper lobe subpleural bullae. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Left lower lobe of lung is infected with a small amount of pleural effusion on both sides.  Parainterlobular septal emphysema, right middle lobe cord lesion. """,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Interstitial changes of both lungs with a little inflammatory change.  Small nodules and calcifications in the lower lobe of the right lung.  The local bone cortex of the right fifth rib is slightly twisted and thickened.  Multiple gallstones in gallbladder and common bile duct, small stones in right kidney.  The gastric wall of antrum was slightly thickened. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in the upper lobes of both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The middle lobe of the right lung occupies space, and the mediastinum has multiple enlarged lymph nodes.  Multiple small nodules in both lungs. """,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Mild interstitial changes in both lungs, a few cord foci in both lungs, bullae in the right lung, and pleural thickening on both sides.  Left lobe lesion of thyroid.  Calcification of right lobe of liver. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""The middle lobe of the right lung and the tongue lobe of the left lung are partially distended, and the bronchus of the middle lobe of the right lung is unobstructed.  Right pulmonary nodule.  The left upper lobe of lung has bullae and a little pericardial effusion. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Right lower lung mass with nodular protuberance of right pleura and bilateral pulmonary nodules.  Right pneumonia, right pleural effusion.  Low density lesions in the right lobe of liver and both kidneys. """,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"""Small nodules in the left lung.  Low density shadow and calcification of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Two pneumonic exudates, bilateral pleural effusion.  The heart shadow is full, the pericardium has a small amount of effusion, and the descending aorta is wider than the ascending aorta. """,0,2,0,0,0,0,0,0,0,1,0,0,0,0
+"""Multiple tiny nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules on the right pleura, dense nodules on T4 vertebral body, and a small amount of pleural effusion on the right.  Small solid nodules in the left lung.  A little bronchiectasis in the lower lobe of the right lung with little organized inflammatory changes.  After space occupying ablation of the right lobe of the liver, the liver has multiple low-density shadows. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+""" Interstitial changes in both lungs, emphysema and bullae.  Left upper lung calcification, bilateral pleural thickening.  Thyroid gland has uneven density and small nodules in the anterior mediastinum. """,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Small solid nodules in the left lower lobe of the lung.  No obvious traumatic changes were found on CT scan. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The wall of the lower esophagus is thickened, and mediastinal lymph nodes are enlarged.  Multiple nodules in both lungs.  Interstitial inflammation of both lungs, bronchiectasis and bullae of both lungs, enlarged heart shadow, bilateral pleural hypertrophy. """,0,1,0,1,0,0,0,0,0,0,1,0,0,0
+"""Interstitial changes in both lungs, pleural effusion on both sides. """,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"""Multiple tiny nodules in both lungs.  Calcification in the right lobe of the liver, stone in the right kidney. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Chronic bronchitis secondary to bilateral lung infection; Right upper lobe posterior segment calcification with pleural hypertrophy inflammation.  Multiple fibrous foci in both lungs, pleural thickening on both sides.  The heart shadow is enlarged. """,0,1,0,0,0,0,1,0,0,0,1,0,0,0
+"""Pneumonia at the lower right, right pleural thickening.  Multiple tiny nodules in both lungs.  Small intrahepatic calcifications or intrahepatic bile duct stones. """,0,0,0,1,0,0,1,0,0,0,1,0,0,0
+""" Bilateral interstitial changes, left lung calcification, bilateral focal pleural thickening. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""1.  Multiple lesions in the lower lobe of the left lung.  There are bullae in the upper lobe of the right lung, a little organized inflammation near the spine in the lower lobe of the right lung, a few ribbon foci in both lungs, and slight thickening of bilateral pleura.  Low density nodule in the left lobe of thyroid.  Gallstone. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+""" Interstitial attack of both lungs with infection.  Bronchiectasis of left lower lung with consolidation of left lower lung.  Multiple small lymph nodes in bilateral armpit.  Coronary artery calcification, left pleural thickening.  A small amount of pericardial effusion, bilateral pleural effusion.  Possibility of accessory spleen; Low density focus of left kidney. """,0,0,0,1,0,1,1,0,0,1,1,0,0,0
+""" Mild interstitial changes in both lungs.  Two upper lungs are emphysema with multiple bullae.  Some intrahepatic bile ducts were slightly dilated. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Both lungs have multiple small nodules, and some of them are light in density.  Cord lesions in both lungs.  Intrahepatic low-density focus, intrahepatic calcification focus. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes of both lungs, infection of both lungs, slightly larger heart shadow, enlarged mediastinal lymph nodes, bilateral pleural hypertrophy. """,0,1,0,0,0,0,1,0,0,0,1,0,0,0
+"""Right pulmonary bronchiectasis with infection, multiple nodules in both lungs.  Left thyroid calcification. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  A few cord lesions in both lungs.  The gallbladder wall is thickened and the gallbladder density is increased. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in the right lung, benign lesions considered.  Two lung cord foci, bilateral pleural hypertrophy.  Severe fatty liver.  The left kidney is slightly atrophic, and the left kidney has low density. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The wall of gastric antrum is thickened, the mesentery is thickened, the density is increased, the wall of large intestine is thickened, and the ascites is accumulated.  Gallstone.  There are few inflammatory changes in both lungs, pleural effusion on the right side, and pleural hypertrophy on both sides. """,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+"""Multiple small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Multiple small nodules in both lungs, considering inflammatory focus.  Calcification in the left lobe of liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Bilateral upper lobe bullae, right middle lobe and left lower lobe cord lesions, bilateral lungs scattered in calcification.  Both lungs are scattered with small nodules. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Mediastinal lymph nodes enlarged, left pulmonary bullae, bilateral pleural hypertrophy. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found on plain CT scan of both lungs.  The heart shadow is slightly enlarged, and the walls of coronary arteries and large vessels are calcified.  Bilateral axillary small lymph nodes. """,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"""Mild emphysema in both lungs, bullae in the lungs, cord lesions in the lower tongue segment of the upper lobe of the left lung, and a small amount of pleural effusion on both sides.  Both lungs are scattered in nodules.  Low density foci in the left lobe of thyroid, liver and left kidney. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Small nodules in the lower lobes of both lungs, and a few exudative lesions under the pleura in the lower lobes of both lungs. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Multiple nodules in both lungs, multiple enlarged lymph nodes in mediastinum and bilateral armpits.  The right lobe of thyroid is not shown.  Fatty liver. """,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bilateral basal ganglia and lateral paraventricular lacunar infarction.  Thickening of the inner frontal plate.  Small nodules in both lower lungs.  Left upper lung cord shadow, multiple calcifications in both lungs.  Bilateral Chenri rib fracture. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+""" Nodules in the upper lobes of both lungs, with inflammatory focus considered.  A few cord lesions in the middle lobe of the right lung.  Coronary artery wall calcification. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes, bullae and bronchiectasis of both lungs.  Two lung infections.  Right pneumothorax, right lung compressed about 70%.  Intrahepatic cystic lesions. """,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+"""Interstitial changes in both lungs, enlarged mediastinal lymph nodes, and bilateral pleural hypertrophy.  The heart shadow is slightly enlarged.  Spleen calcification. """,0,1,0,1,0,0,0,0,0,0,1,0,0,0
+"""Anterior mediastinal nodule.  Postoperative change of left breast, thoracic vertebra metastasis.  Small solid nodules in the right lung.  Hepatic cyst, left thyroid cyst. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The right lung has multiple light dense nodules.  Pointed calcification in the lower lobe of the left lung.  Cystic focus at right cardiac margin, pericardial cyst may be large.  The left lobe of thyroid has a round low density. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Bilateral breast nodules. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple lacunar infarcts were found in the lateral ventricles on both sides and the right semicircular area.  Two emphysema, pulmonary bullae with a little infection in both lower lungs.  Left renal cystic lesion. """,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"""Bilateral bullae, bilateral cord lesions, bilateral pleural hypertrophy.  The exudation changes in the lower lobes of both lungs, with a small amount of pleural effusion on both sides.  Small nodules in the middle lobe of the right lung.  Changes after internal fixation of the right clavicle. """,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"""Multiple solid nodules of both lungs were found in the postoperative reexamination of left lower lung cancer.  Interstitial pneumonia of two lungs.  Left pleural effusion and bilateral pleural hypertrophy.  A small amount of pericardial effusion. """,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"""Calcified nodules in the left upper lobe of the lung.  The left upper abdomen was seen as round high-density shadow. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Interstitial changes in both lungs, infection in the middle and lower lobe of the right lung, and a small amount of pleural effusion on both sides.  Bullae in the upper lobe of the right lung. """,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"""Calcification in the right lower lung. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple tiny nodules in both lungs.  Local bronchiectasis in the right lower lung, a few cord foci in both lungs, calcification in both lungs, and pleural thickening on both sides.  High density shadow in the left part of rib. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""The middle lobe of the right lung is distended, with multiple cord foci in both lungs, bullae in the lower lobe of the right lung, and scattered spotted calcifications in both lungs. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple nodules in both lungs.  Localized bronchiectasis of the left lower lung, cord foci of both lungs, enlarged heart shadow, bilateral pleural hypertrophy.  Point calcification of bilateral mammary glands. """,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"""Two lung infections.  Small nodules in the right upper lung. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Strip like high density shadow in the left external auditory canal.  Otitis media on both sides, significant on the left side.  Ground glass nodules in the upper left lung.  The middle lobe of the right lung is slightly inflamed, and the right interlobular pleura is locally thickened. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Interstitial changes of both lungs with infection of both lungs, carcinomatous lymphangitis, right pleural effusion.  Nodules in the upper lingual segment of the left upper lobe of the lung.  The heart shadow is enlarged, and the pericardium has a small amount of effusion.  Multiple bone destruction.  The mediastinum, right hilar lung, and bilateral armpits often have slightly larger lymph nodes. """,1,1,0,1,0,0,1,0,0,1,0,0,0,0
+"""Multiple tiny nodules in both lungs.  Lesion of left lower lobe.  Spotted calcification shadow in both breasts. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""The reexamination findings of multiple infections of both lungs after treatment.  Bronchiectasis of right lower lobe of lung with distension and infection.  There is a small amount of effusion in the right thoracic cavity.  Cardiac shadow is slightly larger, coronary artery calcification.  Enlargement of mediastinal and right axillary lymph nodes. """,1,1,0,1,0,0,1,0,0,1,0,0,0,0
+"""Bronchiectasis in the middle lobe of the right lung and tongue segment of the left lung accompanied by organized inflammation, and old lesions in the upper lobe of both lungs.  2.  Both lungs are scattered in nodules. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""A few chronic inflammatory lesions in both lungs.  The right lobe of thyroid has a round low density. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Patches and nodules in the lower left lung, and possible inflammatory lesions.  Multiple calcifications in the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Multiple fibrous bands in the left lung, pleural thickening on both sides, pleural adhesions on the left side.  Multiple small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+""" Bilateral lung infection, right lower lobe bullae, bilateral small amount of pleural effusion, right interlobular effusion. """,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"""Right upper lobe calcification. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+""" Interstitial inflammation of both lungs, pleural thickening on both sides.  Small nodules in the left upper lobe of the lung.  The local calcified spot of the descending aorta moved slightly inward.  Left kidney atrophy, cystic lesion of left kidney. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Esophageal C changes after treatment, and the upper esophageal tube wall thickens.  Interstitial changes in both lungs, left lower lobe infection with partial bronchiectasis.  Both lungs are scattered with tiny nodules. """,0,0,0,1,0,0,1,0,0,0,0,0,1,0
+"""It is considered that the inflammatory lesion in the upper lobe of the right lung may be large.  Localized emphysema in the upper and middle lobe of the right lung, a few ribbon foci in the left lung, spotty calcification in the lower lobe of the right lung, and slightly thicker pleura on both sides.  The gastric wall of the lesser curvature side was thickened.  Fatty liver.  Thyroid density is uneven. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""Two pneumonia, right pleural effusion.  A small amount of pericardial effusion. """,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"""The wall of the lower segment of the esophagus is thickened, and the lumen of the middle segment is isodense.  Both lungs had multiple old lesions and pleural thickening on both sides.  Low density near ascending aorta, pericardial cyst may occur. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Old lesion of right lung.  Low density focus of left kidney. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""Multiple small nodules in both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple solid nodules in both lungs.  Multiple bullae in both lungs.  The local bone cortex of the left 9th and right 4th ribs was distorted. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple intracerebral cavity infarction.  Interstitial changes in both lungs, calcification in the left lung.  Spleen calcification. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""There is a little inflammation in both lungs, and a little bronchiectasis in the upper lobe of the right lung.  It is recommended to recheck after anti-inflammatory treatment.  Both lungs are scattered with tiny nodules.  Bilateral lung bullae. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Lower lobe of both lungs slightly inflamed.  Bilateral pleural thickening.  Multiple gallstones occur in the gallbladder. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""There is a little inflammation in the upper lobe of the right lung, and there are multiple bullae in both lungs.  Small nodules in the left upper lobe of the lung.  Intrahepatic cystic lesions. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Bilateral lower lobe infection.  Ground glass nodules in the upper lobe of the right lung.  Fracture of the right second to sixth rib. """,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+"""Right pulmonary nodule. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Multiple nodules in both lungs, some ground glass lesions, follow-up and re examination are recommended. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""There are a few cord foci in both lungs, and a few consolidation in the middle lobe of the right lung.  There were multiple cystic lesions in the liver, and the right adrenal gland occupied space. """,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+"""A little bronchiectasis in the lower lobes of both lungs.  Small nodules in the middle and lower lobes of the right lung.  Low density in liver, part of the boundary is vague. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Right upper and middle lobe cord and calcification, right lung nodule""",0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Right lung calcification. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Multiple tiny nodules in both lungs.  Multiple calcified nodules in the upper lobe of the right lung.  Coronary artery wall calcification.  Multiple round low density lesions in liver, gallstone. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""After left lower lobe surgery, bilateral lung infection, bilateral lower lobe consolidation with partial distension, and a small amount of pleural effusion on both sides.  Both lungs are scattered in nodules.  Postoperative changes of anterior mediastinum.  Chronic bronchitis, emphysema, pulmonary bullae formation. """,1,0,0,1,0,1,1,0,0,1,0,0,0,0
+"""Mild interstitial changes were found in both lungs, with a few cord and calcification foci in both lungs, and the pleura on both sides was slightly thicker.  Small nodules in the lower lobes of both lungs. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""A few streaky shadows in the upper lobe of the left lung.  The spleen is round and slightly low density. """,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Esophageal postoperative changes, multiple nodules in the left lung.  Left lower lobe posterior basal segment infection, bilateral lung cord lesions.  A small amount of pericardial effusion. """,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"""Bilateral pulmonary nodules.  Low density focus in liver, dense shadow of right thyroid lobe. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Bilateral otitis media and mastoiditis.  Ground glass nodules in the upper lobe of the right lung.  Right upper lobe calcification.  Slightly larger mediastinal lymph nodes.  Old fracture of left sixth rib. """,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"""Mild interstitial changes were found in the lower lobe of both lungs.  Nodules and calcifications were scattered in the middle lobe of the right lung, and pleural thickening was found on both sides.  T5 dense shadow.  Diffuse thyroid disease.  Liver calcification, multiple gallstones, left renal cystic lesions. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""The left pleura is slightly thickened.  Low density focus of liver. """,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"""No obvious abnormality is found. """,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"""Small solid nodules in the anterior segment of the upper lobe of the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Nodules in the middle lobe of the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" Multiple nodules in the right lung. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+""" The transparent septum was widened.  Hydrocephalus changes.  Mild interstitial changes in both lower lungs.  Small nodules in the right upper lung.  Multiple cystic lesions in the liver. """,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"""Multiple bronchiectasis of both lungs with infection and consolidation. """,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+""" Interstitial inflammation in both lower lungs and bullae in both lungs.  Bilateral pleural thickening.  Multiple low-density lesions in the liver.  Gallstone. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"""Nodules in the middle lobe of the right lung.  Double lower lung cord lesions, bilateral pleural thickening. """,0,0,0,1,0,0,0,0,0,0,1,0,0,0

@@ -1,14 +1,16 @@
 import random
 import nltk
 from nltk.tokenize import sent_tokenize
-#nltk.download('punkt')
+
+
+# nltk.download('punkt')
 
 class TextAugment():
     @staticmethod
     def shuffle_sentences(sentences):
         random.shuffle(sentences)
         return " ".join(sentences)
-        
+
     @staticmethod
     def validate(**kwargs):
         """Validate input data"""
@@ -34,9 +36,9 @@ class TextAugment():
         '''
 
     def random_shuffle(self, text: str, p: float = 0.5):
-        '''
-        . 
-        '''
+        """
+        .
+        """
         validation_results = self.validate(text=text, p=p)
         self.p = p
         if validation_results == 0:
@@ -45,15 +47,16 @@ class TextAugment():
         else:
             sentences = sent_tokenize(text)
             r = random.uniform(0, 1)
-            #print(r)
+            # print(r)
             if self.p > r:
                 return self.shuffle_sentences(sentences)
             else:
                 return text
 
-'''
-text = 'Hello! My name is Muhammed Furkan Dasdelen. I am a 6th year medical student at Medipol university. How are you today? I am really goof btw..'
-augment = TextAugment()
-new_text = augment.random_shuffle(text,p=0.9)
-print(new_text)
-'''
+
+if __name__ == '__main__':
+
+    text = 'Hello! My name is Muhammed Furkan Dasdelen. I am a 6th year medical student at Medipol university. How are you today? I am really goof btw..'
+    augment = TextAugment()
+    new_text = augment.random_shuffle(text,p=0.9)
+    print(new_text)

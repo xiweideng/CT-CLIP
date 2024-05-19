@@ -1,36 +1,35 @@
 import os
 import nibabel as nib
-import pandas as pd
 import numpy as np
 import torch
 import torch.nn.functional as F
 from multiprocessing import Pool
 from tqdm import tqdm
 
+
 def read_nii_files(directory):
     """
-    Retrieve paths of all NIfTI files in the given directory.
-
+    Retrieve the list of NIfTI files in the specified directory.
     Args:
     directory (str): Path to the directory containing NIfTI files.
-
     Returns:
-    list: List of paths to NIfTI files.
+    list: List of tuples containing the folder name and file name for each NIfTI file.
     """
+    folders = [folder for folder in os.listdir(directory) if os.path.isdir(os.path.join(directory, folder))]
     nii_files = []
-    for root, dirs, files in os.walk(directory):
-        for file in files:
+    for folder in folders:
+        folder_path = os.path.join(directory, folder)
+        for file in os.listdir(folder_path):
             if file.endswith('.nii.gz'):
-                nii_files.append(os.path.join(root, file))
+                nii_files.append((folder, file))
     return nii_files
+
 
 def read_nii_data(file_path):
     """
     Read NIfTI file data.
-
     Args:
     file_path (str): Path to the NIfTI file.
-
     Returns:
     np.ndarray: NIfTI file data.
     """
@@ -41,6 +40,7 @@ def read_nii_data(file_path):
     except Exception as e:
         print(f"Error reading file {file_path}: {e}")
         return None
+
 
 def resize_array(array, current_spacing, target_spacing):
     """
@@ -66,29 +66,30 @@ def resize_array(array, current_spacing, target_spacing):
     resized_array = F.interpolate(array, size=new_shape, mode='trilinear', align_corners=False).cpu().numpy()
     return resized_array
 
-def process_file(file_path):
+
+def process_file(file_info):
     """
     Process a single NIfTI file.
 
     Args:
-    file_path (str): Path to the NIfTI file.
+    file_info (tuple): Tuple containing folder name and file name.
 
     Returns:
     None
     """
+    folder, file_name = file_info
+    file_path = os.path.join(split_to_preprocess, folder, file_name)
+
     img_data = read_nii_data(file_path)
     if img_data is None:
         print(f"Read {file_path} unsuccessful. Passing")
         return
 
-    file_name = os.path.basename(file_path)
-
-    row = df[df['VolumeName'] == file_name]
-    slope = float(row["RescaleSlope"].iloc[0])
-    intercept = float(row["RescaleIntercept"].iloc[0])
-    xy_spacing = float(row["XYSpacing"].iloc[0][1:][:-2].split(",")[0])
-    z_spacing = float(row["ZSpacing"].iloc[0])
-
+    # TODO: Read the corresponding CSV file and extract the necessary information
+    slope = 1.0
+    intercept = 0.0
+    xy_spacing = 1.0
+    z_spacing = 1.0
     # Define the target spacing values
     target_x_spacing = 0.75
     target_y_spacing = 0.75
@@ -109,22 +110,22 @@ def process_file(file_path):
     resized_array = resize_array(tensor, current, target)
     resized_array = resized_array[0][0]
 
-    save_folder = "train_preprocessed/" #save folder for preprocessed
-    folder_path_new = os.path.join(save_folder, "train_" + file_name.split("_")[1], "train_" + file_name.split("_")[1] + file_name.split("_")[2]) #folder name for train or validation
+    # Create the corresponding npz folder structure
+    save_folder = '/home/dxw/Desktop/common_datasets/CTRG-Chest-548K-3D-npz/'
+    folder_path_new = os.path.join(save_folder, folder)
     os.makedirs(folder_path_new, exist_ok=True)
-    file_name = file_name.split(".")[0]+".npz"
-    save_path = os.path.join(folder_path_new, file_name)
+
+    npz_file_name = file_name.replace('.nii.gz', '.npz')
+    save_path = os.path.join(folder_path_new, npz_file_name)
     np.savez(save_path, resized_array)
+
 
 # Example usage:
 if __name__ == "__main__":
-    split_to_preprocess = 'train' #select the validation or test split
+    split_to_preprocess = '/home/dxw/Desktop/common_datasets/CTRG-Chest-548K-3D/'
+    # Get the list of NIfTI files
     nii_files = read_nii_files(split_to_preprocess)
-
-    df = pd.read_csv("train_metadata.csv") #select the metadata
-
-    num_workers = 18  # Number of worker processes
-
+    num_workers = 20  # Number of worker processes
     # Process files using multiprocessing with tqdm progress bar
     with Pool(num_workers) as pool:
         list(tqdm(pool.imap(process_file, nii_files), total=len(nii_files)))

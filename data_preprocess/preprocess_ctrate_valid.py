@@ -7,6 +7,7 @@ import torch.nn.functional as F
 from multiprocessing import Pool
 from tqdm import tqdm
 
+
 def read_nii_files(directory):
     """
     Retrieve paths of all NIfTI files in the given directory.
@@ -23,6 +24,7 @@ def read_nii_files(directory):
             if file.endswith('.nii.gz'):
                 nii_files.append(os.path.join(root, file))
     return nii_files
+
 
 def read_nii_data(file_path):
     """
@@ -41,6 +43,7 @@ def read_nii_data(file_path):
     except Exception as e:
         print(f"Error reading file {file_path}: {e}")
         return None
+
 
 def resize_array(array, current_spacing, target_spacing):
     """
@@ -65,6 +68,7 @@ def resize_array(array, current_spacing, target_spacing):
     # Resize the array
     resized_array = F.interpolate(array, size=new_shape, mode='trilinear', align_corners=False).cpu().numpy()
     return resized_array
+
 
 def process_file(file_path):
     """
@@ -109,19 +113,22 @@ def process_file(file_path):
     resized_array = resize_array(tensor, current, target)
     resized_array = resized_array[0][0]
 
-    save_folder = "valid_preprocessed/" #save folder for preprocessed
-    folder_path_new = os.path.join(save_folder, "valid_" + file_name.split("_")[1], "valid_" + file_name.split("_")[1] + file_name.split("_")[2]) #folder name for train or validation
+    save_folder = "valid_preprocessed/"  # save folder for preprocessed
+    folder_path_new = os.path.join(save_folder, "valid_" + file_name.split("_")[1],
+                                   "valid_" + file_name.split("_")[1] + file_name.split("_")[
+                                       2])  # folder name for train or validation
     os.makedirs(folder_path_new, exist_ok=True)
-    file_name = file_name.split(".")[0]+".npz"
+    file_name = file_name.split(".")[0] + ".npz"
     save_path = os.path.join(folder_path_new, file_name)
     np.savez(save_path, resized_array)
 
+
 # Example usage:
 if __name__ == "__main__":
-    split_to_preprocess = 'valid' #select the validation or test split
+    split_to_preprocess = 'valid'  # select the validation or test split
     nii_files = read_nii_files(split_to_preprocess)
 
-    df = pd.read_csv("validation_metadata.csv") #select the metadata
+    df = pd.read_csv("validation_metadata.csv")  # select the metadata
 
     num_workers = 18  # Number of worker processes
 
