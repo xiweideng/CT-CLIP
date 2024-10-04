@@ -13,26 +13,26 @@ import tqdm
 
 
 class CTReportDatasetinfer(Dataset):
-    def __init__(self, data_folder, csv_file, min_slices=20, resize_dim=500, force_num_frames=True, labels = "labels.csv"):
+    def __init__(self, data_folder, csv_file, min_slices=20, resize_dim=500, force_num_frames=True,
+                 labels="labels.csv"):
         self.data_folder = data_folder
         self.min_slices = min_slices
         self.labels = labels
         self.accession_to_text = self.load_accession_text(csv_file)
-        self.paths=[]
+        self.paths = []
         self.samples = self.prepare_samples()
         self.transform = transforms.Compose([
-            transforms.Resize((resize_dim,resize_dim)),
+            transforms.Resize((resize_dim, resize_dim)),
             transforms.ToTensor()
         ])
-        self.nii_to_tensor = partial(self.nii_img_to_tensor, transform = self.transform)
+        self.nii_to_tensor = partial(self.nii_img_to_tensor, transform=self.transform)
 
     def load_accession_text(self, csv_file):
         df = pd.read_csv(csv_file)
         accession_to_text = {}
         for index, row in df.iterrows():
-            accession_to_text[row['VolumeName']] = row["Findings_EN"],row['Impressions_EN']
+            accession_to_text[row['VolumeName']] = row["Findings_EN"], row['Impressions_EN']
         return accession_to_text
-
 
     def prepare_samples(self):
         samples = []
@@ -76,17 +76,17 @@ class CTReportDatasetinfer(Dataset):
 
     def nii_img_to_tensor(self, path, transform):
         img_data = np.load(path)['arr_0']
-        img_data= np.transpose(img_data, (1, 2, 0))
-        img_data = img_data*1000
+        img_data = np.transpose(img_data, (1, 2, 0))
+        img_data = img_data * 1000
         hu_min, hu_max = -1000, 200
         img_data = np.clip(img_data, hu_min, hu_max)
 
-        img_data = (((img_data+400 ) / 600)).astype(np.float32)
-        slices=[]
+        img_data = (((img_data + 400) / 600)).astype(np.float32)
+        slices = []
 
         tensor = torch.tensor(img_data)
         # Get the dimensions of the input tensor
-        target_shape = (480,480,240)
+        target_shape = (480, 480, 240)
         # Extract dimensions
         h, w, d = tensor.shape
 
@@ -111,8 +111,8 @@ class CTReportDatasetinfer(Dataset):
         pad_d_before = (dd - tensor.size(2)) // 2
         pad_d_after = dd - tensor.size(2) - pad_d_before
 
-        tensor = torch.nn.functional.pad(tensor, (pad_d_before, pad_d_after, pad_w_before, pad_w_after, pad_h_before, pad_h_after), value=-1)
-
+        tensor = torch.nn.functional.pad(tensor, (
+        pad_d_before, pad_d_after, pad_w_before, pad_w_after, pad_h_before, pad_h_after), value=-1)
 
         tensor = tensor.permute(2, 0, 1)
 
@@ -123,9 +123,9 @@ class CTReportDatasetinfer(Dataset):
     def __getitem__(self, index):
         nii_file, input_text, onehotlabels = self.samples[index]
         video_tensor = self.nii_to_tensor(nii_file)
-        input_text = input_text.replace('"', '')  
-        input_text = input_text.replace('\'', '')  
-        input_text = input_text.replace('(', '')  
-        input_text = input_text.replace(')', '')  
+        input_text = input_text.replace('"', '')
+        input_text = input_text.replace('\'', '')
+        input_text = input_text.replace('(', '')
+        input_text = input_text.replace(')', '')
         name_acc = nii_file.split("/")[-2]
         return video_tensor, input_text, onehotlabels, name_acc

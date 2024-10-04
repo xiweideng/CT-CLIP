@@ -2,10 +2,11 @@ from pathlib import Path
 from shutil import rmtree
 from transformer_maskgit.optimizer import get_optimizer
 from transformers import BertTokenizer, BertModel
-
+import nibabel as nib
 from eval import evaluate_internal, plot_roc, accuracy, sigmoid, bootstrap, compute_cis
 
-from sklearn.metrics import classification_report, confusion_matrix, multilabel_confusion_matrix, f1_score, accuracy_score
+from sklearn.metrics import classification_report, confusion_matrix, multilabel_confusion_matrix, f1_score, \
+    accuracy_score
 
 import torch
 from torch import nn
@@ -45,31 +46,37 @@ def tensor_to_nifti(tensor, path, affine=np.eye(4)):
         if tensor.size(0) != 1:
             print("Warning: Saving only the first channel of the input tensor")
         tensor = tensor.squeeze(0)
-    tensor=tensor.swapaxes(0,2)
+    tensor = tensor.swapaxes(0, 2)
     numpy_data = tensor.detach().numpy().astype(np.float32)
     nifti_img = nib.Nifti1Image(numpy_data, affine)
     nib.save(nifti_img, path)
 
+
 def exists(val):
     return val is not None
 
+
 def noop(*args, **kwargs):
     pass
+
 
 def cycle(dl):
     while True:
         for data in dl:
             yield data
 
+
 def yes_or_no(question):
     answer = input(f'{question} (y/n) ')
     return answer.lower() in ('yes', 'y')
+
 
 def accum_log(log, new_logs):
     for key, new_value in new_logs.items():
         old_value = log.get(key, 0.)
         log[key] = old_value + new_value
     return log
+
 
 def apply_softmax(array):
     """
@@ -133,29 +140,30 @@ class CosineAnnealingWarmUpRestarts(lr_scheduler._LRScheduler):
             self.T_0 *= self.T_mult
             self.eta_max *= self.gamma
 
+
 class CTClipInference(nn.Module):
     def __init__(
-        self,
-        CTClip: CTCLIP,
-        *,
-        num_train_steps,
-        batch_size,
-        data_folder: "external_valid",
-        reports_file: "data_reports.xslx",
-        lr = 1e-4,
-        wd = 0.,
-        max_grad_norm = 0.5,
-        save_results_every = 100,
-        save_model_every = 2000,
-        results_folder = './results',
-        labels = "labels.csv",
-        accelerate_kwargs: dict = dict()
+            self,
+            CTClip: CTCLIP,
+            *,
+            num_train_steps,
+            batch_size,
+            data_folder: "external_valid",
+            reports_file: "data_reports.xslx",
+            lr=1e-4,
+            wd=0.,
+            max_grad_norm=0.5,
+            save_results_every=100,
+            save_model_every=2000,
+            results_folder='./results',
+            labels="labels.csv",
+            accelerate_kwargs: dict = dict()
     ):
         super().__init__()
         ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
         self.accelerator = Accelerator(kwargs_handlers=[ddp_kwargs], **accelerate_kwargs)
         self.CTClip = CTClip
-        self.tokenizer = BertTokenizer.from_pretrained('microsoft/BiomedVLP-CXR-BERT-specialized',do_lower_case=True)
+        self.tokenizer = BertTokenizer.from_pretrained('microsoft/BiomedVLP-CXR-BERT-specialized', do_lower_case=True)
         self.results_folder = results_folder
         self.register_buffer('steps', torch.Tensor([0]))
 
@@ -167,31 +175,29 @@ class CTClipInference(nn.Module):
         self.optim = get_optimizer(all_parameters, lr=lr, wd=wd)
 
         self.max_grad_norm = max_grad_norm
-        self.lr=lr
+        self.lr = lr
         # Load the pre-trained weights
-        self.ds = CTReportDatasetinfer(data_folder=data_folder, csv_file=reports_file,labels=labels)
+        self.ds = CTReportDatasetinfer(data_folder=data_folder, csv_file=reports_file, labels=labels)
 
         # Split dataset into train and validation sets
-
 
         self.dl = DataLoader(
             self.ds,
             num_workers=1,
             batch_size=1,
-            shuffle = True,
+            shuffle=True,
         )
         # prepare with accelerator
-        self.dl_iter=cycle(self.dl)
+        self.dl_iter = cycle(self.dl)
         self.device = self.accelerator.device
         self.CTClip.to(self.device)
         self.lr_scheduler = CosineAnnealingWarmUpRestarts(self.optim,
-                                                  T_0=4000000,    # Maximum number of iterations
-                                                  T_warmup=10000, # Number of warmup steps
-                                                  eta_max=lr)   # Maximum learning rate
-
+                                                          T_0=4000000,  # Maximum number of iterations
+                                                          T_warmup=10000,  # Number of warmup steps
+                                                          eta_max=lr)  # Maximum learning rate
 
         (
- 			self.dl_iter,
+            self.dl_iter,
             self.CTClip,
             self.optim,
             self.lr_scheduler
@@ -208,8 +214,6 @@ class CTClipInference(nn.Module):
         self.results_folder = Path(results_folder)
 
         self.results_folder.mkdir(parents=True, exist_ok=True)
-
-
 
     def save(self, path):
         if not self.accelerator.is_local_main_process:
@@ -234,7 +238,6 @@ class CTClipInference(nn.Module):
     def print(self, msg):
         self.accelerator.print(msg)
 
-
     @property
     def is_main(self):
         return self.accelerator.is_main_process
@@ -244,11 +247,8 @@ class CTClipInference(nn.Module):
 
         steps = int(self.steps.item())
 
-
         # logs
         logs = {}
-
-
 
         if True:
             with torch.no_grad():
@@ -257,41 +257,47 @@ class CTClipInference(nn.Module):
 
                 for model, filename in models_to_evaluate:
                     model.eval()
-                    predictedall=[]
-                    realall=[]
+                    predictedall = []
+                    realall = []
                     logits = []
 
                     text_latent_list = []
                     image_latent_list = []
-                    accession_names=[]
-                    pathologies = ['Medical material','Arterial wall calcification', 'Cardiomegaly', 'Pericardial effusion','Coronary artery wall calcification', 'Hiatal hernia','Lymphadenopathy', 'Emphysema', 'Atelectasis', 'Lung nodule','Lung opacity', 'Pulmonary fibrotic sequela', 'Pleural effusion', 'Mosaic attenuation pattern','Peribronchial thickening', 'Consolidation', 'Bronchiectasis','Interlobular septal thickening']
+                    accession_names = []
+                    pathologies = ['Medical material', 'Arterial wall calcification', 'Cardiomegaly',
+                                   'Pericardial effusion', 'Coronary artery wall calcification', 'Hiatal hernia',
+                                   'Lymphadenopathy', 'Emphysema', 'Atelectasis', 'Lung nodule', 'Lung opacity',
+                                   'Pulmonary fibrotic sequela', 'Pleural effusion', 'Mosaic attenuation pattern',
+                                   'Peribronchial thickening', 'Consolidation', 'Bronchiectasis',
+                                   'Interlobular septal thickening']
                     for i in tqdm.tqdm(range(len(self.ds))):
                         valid_data, text, onehotlabels, acc_name = next(self.dl_iter)
 
                         plotdir = self.result_folder_txt
                         Path(plotdir).mkdir(parents=True, exist_ok=True)
 
-                        predictedlabels=[]
-                        onehotlabels_append=[]
+                        predictedlabels = []
+                        onehotlabels_append = []
 
                         for pathology in pathologies:
                             text = [f"{pathology}.", f"not {pathology}."]
-                            text_tokens=self.tokenizer(
-                                            text, return_tensors="pt", padding="max_length", truncation=True, max_length=512).to(device)
+                            text_tokens = self.tokenizer(
+                                text, return_tensors="pt", padding="max_length", truncation=True, max_length=512).to(
+                                device)
 
-                            output = model(text_tokens, valid_data.cuda(),  device=device)
+                            output = model(text_tokens, valid_data.cuda(), device=device)
 
                             output = apply_softmax(output)
 
-                            append_out=output.detach().cpu().numpy()
+                            append_out = output.detach().cpu().numpy()
                             predictedlabels.append(append_out[0])
 
                         predictedall.append(predictedlabels)
                         realall.append(onehotlabels.detach().cpu().numpy()[0])
                         accession_names.append(acc_name[0])
 
-                    realall=np.array(realall)
-                    predictedall=np.array(predictedall)
+                    realall = np.array(realall)
+                    predictedall = np.array(predictedall)
 
                     np.savez(f"{plotdir}labels_weights.npz", data=realall)
                     np.savez(f"{plotdir}predicted_weights.npz", data=predictedall)
@@ -299,8 +305,7 @@ class CTClipInference(nn.Module):
                         for item in accession_names:
                             file.write(item + "\n")
 
-
-                    dfs=evaluate_internal(predictedall,realall,pathologies, plotdir)
+                    dfs = evaluate_internal(predictedall, realall, pathologies, plotdir)
 
                     writer = pd.ExcelWriter(f'{plotdir}aurocs.xlsx', engine='xlsxwriter')
 
@@ -310,12 +315,9 @@ class CTClipInference(nn.Module):
         self.steps += 1
         return logs
 
-
-
-
     def infer(self, log_fn=noop):
         device = next(self.CTClip.parameters()).device
-        device=torch.device('cuda')
+        device = torch.device('cuda')
         while self.steps < self.num_train_steps:
             logs = self.train_step()
             log_fn(logs)

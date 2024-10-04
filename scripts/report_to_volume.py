@@ -2,7 +2,8 @@ import numpy as np
 import torch
 import tqdm
 
-def find_top_k_indices(values,k):
+
+def find_top_k_indices(values, k):
     # Check if the list has at least 50 values
     if len(values) < 50:
         raise ValueError("The list must contain at least 50 values")
@@ -15,22 +16,23 @@ def find_top_k_indices(values,k):
 
     return top_50_indices
 
+
 data_folder = "path_to_latents_folder/"
 
-image_data= np.load(data_folder+"image_latents.npz")["data"][:,0,:]
-text_data = np.load(data_folder+"text_latents.npz")["data"][:,0,:]
+image_data = np.load(data_folder + "image_latents.npz")["data"][:, 0, :]
+text_data = np.load(data_folder + "text_latents.npz")["data"][:, 0, :]
 
 print(image_data.shape)
 
 list_texts = []
-list_ks=[50]
+list_ks = [50]
 for value in tqdm.tqdm(list_ks):
-    num_is_in=0
-    num_random=0
+    num_is_in = 0
+    num_random = 0
 
     for i in tqdm.tqdm(range(text_data.shape[0])):
         crosses = []
-        crosses_rands=[]
+        crosses_rands = []
         for k in range(image_data.shape[0]):
             text = torch.tensor(text_data[i])
             image = torch.tensor(image_data[k])
@@ -38,26 +40,25 @@ for value in tqdm.tqdm(list_ks):
             cross = text @ image
             crosses.append(cross)
 
-        top_k_indices = find_top_k_indices(crosses,value)
+        top_k_indices = find_top_k_indices(crosses, value)
         if i in top_k_indices:
-            num_is_in=num_is_in+1
+            num_is_in = num_is_in + 1
 
         for k in range(image_data.shape[0]):
-            size = (512)
-            text =  torch.rand(size)
+            size = 512
+            text = torch.rand(size)
             image = torch.rand(size)
 
-            crosses_rand= text @ image
+            crosses_rand = text @ image
             crosses_rands.append(crosses_rand)
-        top_k_indices = find_top_k_indices(crosses_rands,value)
+        top_k_indices = find_top_k_indices(crosses_rands, value)
         if i in top_k_indices:
-            num_random=num_random+1
+            num_random = num_random + 1
 
-    clip = num_is_in/text_data.shape[0]
-    rand = num_random/text_data.shape[0]
+    clip = num_is_in / text_data.shape[0]
+    rand = num_random / text_data.shape[0]
     write_str = f"K={value}, clip = {clip}, rand= {rand}"
     list_texts.append(write_str)
-
 
 file_path = data_folder + f"internal_accessions_t2i_{list_ks[0]}.txt"
 

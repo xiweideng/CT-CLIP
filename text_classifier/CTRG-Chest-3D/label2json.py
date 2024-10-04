@@ -28,15 +28,15 @@ def write_json_file(filepath, data):
 
 
 def main():
-    json_filepath = '/home/dxw/Desktop/common_datasets/CTRG-Chest-548K-3D-npz/annotation_cxr_c14.json'
-    train_csv_filepath = '/home/dxw/PycharmProjects/CT-CLIP/text_classifier/CTRG-Chest-3D/train.csv'
-    val_csv_filepath = '/home/dxw/PycharmProjects/CT-CLIP/text_classifier/CTRG-Chest-3D/val.csv'
+    json_filepath = '/data2/dxw/CTRG-ChestZ-npz/annotation_top20.json'
+    # train_csv_filepath = '/home/dxw/PycharmProjects/CT-CLIP/text_classifier/CTRG-Chest-3D/train.csv'
+    val_csv_filepath = '/data2/dxw/CTRG-ChestZ-npz/val_label.csv'
 
     data = load_json_file(json_filepath)
-    train_csv_data = load_csv_file(train_csv_filepath)
+    # train_csv_data = load_csv_file(train_csv_filepath)
     val_csv_data = load_csv_file(val_csv_filepath)
 
-    data = add_labels_to_data(data, train_csv_data, 'train')
+    # data = add_labels_to_data(data, train_csv_data, 'train')
     data = add_labels_to_data(data, val_csv_data, 'val')
 
     write_json_file(json_filepath, data)
